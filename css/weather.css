@@ -1,0 +1,134 @@
+
+@charset 'utf-8';
+
+*{
+    margin:0;
+    padding:0;
+}
+ul{
+    list-style-type:none;
+}
+a{
+    text-decoration: none;
+}
+
+#wrap{
+    width:600px;
+    height: 430px;
+    background-color:silver;
+    margin: 0 auto;
+    border-top-left-radius:30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius:30px;
+    border-bottom-right-radius: 30px;
+}
+#header{
+    width:600px;
+    height: 90px;
+    background-color: darkgray;
+    text-align: center;
+    border-top-left-radius:30px;
+    border-top-right-radius: 30px;
+}
+#header>#logo{
+    float: left;
+    width:250px;
+    height:70px;
+    /* background-color: aqua; */
+    padding-top: 18px;
+    box-sizing: border-box;
+}
+#logo>img{
+    width:180px;
+    height:60px;
+}
+#header>#search-box{
+    float: left;
+    width:350px;
+    height:70px;
+    /* background-color: bisque; */
+    padding-top: 25px;
+    box-sizing: border-box;
+}
+#city{
+    width:200px;
+    height: 38px;
+    border-radius: 10px;
+    padding-left:10px;
+    border:none;
+    vertical-align: middle;
+}
+button{
+    width:60px;
+    height:38px;
+    border-radius: 10px;
+    border:none;
+    vertical-align: middle;
+}
+#content{
+    width:580px;
+    height:230px;
+    background-color: silver;
+    padding:20px 0;
+}
+#main-weather{
+    width:250px;
+    height:120px;
+    /* background-color: lemonchiffon; */
+    margin:15px auto;
+}
+#weather-img{
+    width:150px;
+    height:130px;
+    /* background-color: blue;  */
+}
+#main-weather span{
+    display: block;
+    float:right;
+    width:100px;
+    height:60px;
+    /* background-color: red; */
+    text-align: center;
+    font-size:40px;
+    font-weight:bold;
+    margin-top:40px;
+}
+#weather-detail{
+    width:550px;
+    height:80px;
+    /* background-color: thistle;  */
+    margin:0 auto;
+    padding-left:60px;
+    box-sizing: border-box;
+}
+#weather-detail>div{
+    display: inline-block;
+    width:130px;
+    height:80px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    margin-right:20px;
+    padding-top:10px;
+    box-sizing: border-box;
+}
+#weather-detail>div span{
+    display: block;
+    width:130px;
+    height:25px;
+    text-align: center;
+    font-size:15px;
+}
+#weather-detail>div b{
+    display: block;
+    width:130px;
+    height: 50px;
+    text-align: center;
+    font-size:20px;
+}
+#footer{
+    width:600px;
+    height:90px;
+    background-color: darkgrey;
+    border-bottom-left-radius:30px;
+    border-bottom-right-radius: 30px;
+}

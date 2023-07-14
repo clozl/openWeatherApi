@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/weather.css">
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/app.js"></script>
+    <script src="https://kit.fontawesome.com/976a038995.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>  
+    <div id="wrap">
+        <div id="header">
+           <div id="logo">
+                <img src="./images/logo_white_cropped.png">
+           </div>
+           <div id="search-box">
+                <input type="text" id="city" placeholder="도시 입력"
+                onchange="inputWeather()" onkeyup="keyPress()"/>
+                <button onclick="searchWeather()"><i class="fa-solid fa-magnifying-glass" style="font-size: 18px;"></i></button>
+            </div>
+        </div>
+       <div id="content">
+            <div id="main-weather">
+                <img id="weather-img"></img>
+                <span id="temp"></span>
+            </div>
+            <div id="weather-detail">
+                <div id="feels-like">
+                    <span>체감</span><b></b>
+                </div>
+                <div id="humidity">
+                    <span>습도</span><b></b>
+                </div>
+                <div id="wind">
+                    <span>풍속</span><b></b>
+                </div>
+            </div>
+       </div>
+       <div id="footer">
+
+       </div>
+    </div>
+</body>
+</html>
