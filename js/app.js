@@ -19,8 +19,7 @@ function searchWeather() {
         alert('도시를 입력하세요')
     }
     $.ajax({
-        url:`https://api.openweathermap.org/data/2.5/weather?q=${city},kor&APPID=a0cd335023e5654308fd81198ce68f9c`,
-        /*url:"https://api.openweathermap.org/data/2.5/weather?q="+city+",kor&APPID="+"a0cd335023e5654308fd81198ce68f9c",*/
+        url:`https://api.openweathermap.org/data/2.5/weather?q=${city},kor&APPID=...`,
         method:'GET',
         dataType:'json'
     }).done(function(response){
